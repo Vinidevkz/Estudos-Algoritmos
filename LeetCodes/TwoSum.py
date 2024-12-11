@@ -2,10 +2,10 @@
 # LeetCode: TwoSum
 # Lenguage: Python
 
-
-
-#O(n²)
 myList = [2, 3, 4, 7]
+
+#(Big O): O(n²)
+
 
 # def twoSum(List, number):
 #      low = 0 #the lowest index on the list
@@ -16,12 +16,10 @@ myList = [2, 3, 4, 7]
 #                  return[low, high] #it returned teh index's
 #              else:
 #                  high = myList[high] -1 #else, the high will receive himself minus one
-
-
 # print("Result:", twoSum(myList, 9))
 
 
-#O(n)
+#(Big O): O(n)
 def twoSum2(List2, target):
       dictionary = {} #create an empty dictionary to store seen number and their indices
       for i, num in enumerate(List2):
