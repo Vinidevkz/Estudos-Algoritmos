@@ -1,5 +1,6 @@
-#Pesquisa Binária - Cap 1
-#Feito por Vinicius Eduardo, 2024
+# Made by Vinicius Eduardo 09/12/2024, Brazil, São Paulo
+# LeetCode: Palindrome Number
+# Lenguage: Python
 
 
 def palindromo(x):
