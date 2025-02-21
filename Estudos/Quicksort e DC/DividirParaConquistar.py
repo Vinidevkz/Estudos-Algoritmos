@@ -5,15 +5,9 @@
 #é dividir o problema para que ele se torne o menor possível (caso base), assim reduzindo sua dificuldade.abs
 
 def soma(lista):
-    numeros = lista
-
-    prim = numeros[0]
-    print("Primeiro numero:", prim)
-    resto = numeros[1:]
-    print("Resto da lista:", resto)
-
-    total = prim + sum(resto)
+    total = 0
+    for x in lista:
+        total += x
     return total
 
-numeros = [1, 2, 3]
-print("Total:",soma(numeros))
+    
